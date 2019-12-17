@@ -8,6 +8,7 @@
   
   <title>Frontend Mentor | [Pricing Component With Toggle]</title>
 
+  <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
@@ -18,13 +19,16 @@
 </head>
 <body>
   <div class="top-container">
+    <img src="images/bg-top.svg" alt="">
     <h1>Our Pricing</h1>
-    <p>Annually</p>
-    <label class="switch">
-      <input type="checkbox">
-      <span class="slider round"></span>
-    </label>    
-    <p>Monthly</p>
+    <div class="switch-container">
+      <p class="annual">Annually</p>
+      <label class="switch">
+        <input type="checkbox">
+        <span class="slider round"></span>
+      </label>    
+      <p class="monthly">Monthly</p>
+    </div>
   </div>
   <div class="main-container">
     <div class="panel panel-one">
@@ -66,6 +70,9 @@
       <hr>
       <a href="">Learn More</a>
     </div>
+  </div>
+  <div class="bottom-container">
+    <img src="images/bg-bottom.svg" alt="">
   </div>
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 

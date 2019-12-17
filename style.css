@@ -19,7 +19,7 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: #ccc;
+  background: linear-gradient(hsl(236, 72%, 79%), hsl(237, 63%, 64%));
   -webkit-transition: 0.4s;
   transition: 0.4s;
 }
@@ -59,3 +59,77 @@ input:checked + .slider:before {
   border-radius: 50%;
 }
 /**END SLIDER SWITCH*/
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+/*TOP CONTAINER*/
+.top-container {
+  text-align: center;
+}
+
+.top-container h1 {
+
+}
+
+.switch-container {
+  position: relative;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.top-container img {
+  position: absolute;
+  right: 0px;
+}
+
+.annual {
+  display: inline-block;
+  width: 25%;
+  position: absolute;
+  left: 20%;
+  bottom: -7px;
+}
+
+.monthly {
+  display: inline-block;
+  width: 25%;
+  position: absolute;
+  right: 20%;
+  bottom: -7px;
+}
+
+/*MAIN CONTAINER*/
+.main-container {
+  position: absolute;
+  margin-top: 75px;
+  text-align: center;
+  z-index: 99;
+  width: 100%;
+}
+
+.panel {
+  display: inline-block;
+  background: grey;
+  width: 25%;
+  border-radius: 5px;
+}
+
+.panel-one h1, .panel-two h1, .panel-three h1 {
+  font-size: 3rem;
+}
+
+/*Bottom Container*/
+.bottom-container {
+  position: absolute;
+  top: 400px;
+}
+
+.attribution {
+  position: absolute;
+  bottom: 0px;
+  left: 35%;
+}
